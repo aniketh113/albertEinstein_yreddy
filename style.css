@@ -49,9 +49,13 @@ font-family: var(--fontManrope);
 }
 
 @media (max-width:767px){
-#mainImage{
+#mainImage {
     padding-top: 6%;
     padding-left: 10%;
+}
+#mainImage img{
+    height: 90%;
+    width: 80%;
 }
 #about{
     height: 250px;
@@ -107,6 +111,9 @@ font-family: var(--fontManrope);
     padding: 1em;
 }
 
+#carouselExampleControlsSmallScreen .carousel-inner .carousel-item .card{
+  width: 275px;
+}
 /* this is section of experiences */
 
 #experience{
@@ -140,8 +147,8 @@ font-family: var(--fontManrope);
     
         #hobbies .carousel .carousel-inner>.carousel-item>img {
             margin-left: 10%;
-            width: 420px;
-            height: 360px;
+            width: 275px;
+            height: 200px;
         }
 }
 
