@@ -1,0 +1,200 @@
+:root{
+    --fontManrope:Manrope, sans-serif;
+}
+.containerName{
+    text-align: center;
+    font-family: var(--fontManrope);
+    padding-top: 1%;
+}
+
+/* this is section is about nav bar */
+.navbar{
+.logo{
+    height: 80px;
+    width: 80px;
+}
+}
+ul li .nav-link{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-family: var(--fontManrope);
+
+}
+.navbar-nav>li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* this is section for the about  */
+#about {
+background: rgb(34, 193, 195);
+    background: linear-gradient(24deg, rgba(34, 193, 195, 1) 0%, rgba(229, 250, 156, 1) 100%);
+}
+#name {
+    text-align: center;
+}
+
+#name h2 {
+margin-top: 25%;
+font-size: 80px;
+font-family: var(--fontManrope);
+} 
+#name h4{
+    font-family:var(--fontManrope) ;
+}
+#mainImage img{
+    height: 90%;
+    width: 65%;
+    padding-top: 2%;
+}
+
+@media (max-width:767px){
+#mainImage{
+    padding-top: 6%;
+    padding-left: 10%;
+}
+#about{
+    height: 250px;
+}
+#name h2 {
+        margin-top: 25%;
+        font-size: 40px;
+    }
+#name h4{
+    font-size: 15px;
+}
+#name .btn{
+    padding: 1%;
+}
+#carouselExampleControlsSmallScreen .card{
+    margin-right:3em;
+    margin-left: 3em;
+}
+
+}
+/* this is section for aboutme para */
+#aboutMe{
+    background-color: #80ed99;
+}
+#aboutMe p{
+    margin-bottom: 0%;
+    padding-bottom: 1%;
+    text-align: justify;
+    font-family: var(--fontManrope);
+}
+
+/* this is section for papers */
+#papers{
+    background-color: #b5e48c;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 325px;
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+    padding: 30px 30px 0px 30px;
+}
+
+.carousel-inner {
+    padding: 1em;
+}
+
+/* this is section of experiences */
+
+#experience{
+    background-color: #52b69a;
+    padding-bottom: 2%;
+    .table{
+        font-family: var(--fontManrope);
+    }   
+}
+
+/* this is section of hobbies */
+#hobbies{
+    background-color: #34a0a4;
+}
+#hobbies .container{
+    align-items: center;
+    padding-left: 4%;
+}
+
+#hobbies .carousel .carousel-inner > .carousel-item > img {
+    margin-left: 24%;
+    width: 620px;
+    height: 560px;
+}
+
+#hobbies .carousel .carousel-inner .carousel-item  .carousel-caption h5{
+        font-family: var(--fontManrope);
+        font-size: 40px;
+    }
+@media screen and (max-width: 867px) {
+    
+        #hobbies .carousel .carousel-inner>.carousel-item>img {
+            margin-left: 10%;
+            width: 420px;
+            height: 360px;
+        }
+}
+
+#photos{
+    background-color: #168aad;
+}
+
+#photos .firstRow .lower{
+    display: inline;
+
+}
+
+#photos img {
+    max-width: 100%;
+}
+
+#photos.gallery {
+    background-color: #dbddf1;
+    padding: 80px 0;
+}
+
+#photos .gallery img {
+    background-color: #ffffff;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+#photos #gallery-modal .modal-img {
+    width: 100%;
+}
+
+/* this is blogs section */
+
+#blogs{
+    background-color: #1e6091;
+    padding-bottom: 5%;
+}
+
+#blogs .container{
+    padding-left: 10%;
+    width: 100%;
+}
+
+/* this id for the footer */
+footer{
+    background-color: #184e77;
+    height: 100px;
+    color: white;   
+    padding-top: 1%;
+}
+.footerName{
+    font-family: var(--fontManrope);
+    text-align: center;
+}
